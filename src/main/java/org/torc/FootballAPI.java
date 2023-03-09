@@ -40,9 +40,19 @@ public class FootballAPI {
     @Test
     public void validateScheduledMatchesForCampeonatoBrasileiroSerieA(){
         given()
-                .get("/competitions/2013/matches").
-                then()
+                .get("/competitions/2013/matches")
+        .then()
                 .assertThat().statusCode(403)
+                .log()
+                .all();
+    }
+
+    @Test
+    public void validateThatDoesntExistsListOfPersons(){
+        given()
+                .get("/persons")
+                .then()
+                .assertThat().statusCode(404)
                 .log()
                 .all();
     }

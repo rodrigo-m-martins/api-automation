@@ -7,7 +7,7 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.equalTo;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 
-
+@Test
 public class FootballAPI {
 
     @BeforeTest
@@ -44,6 +44,7 @@ public class FootballAPI {
                 then()
                 .assertThat()
                 .body(matchesJsonSchemaInClasspath("matches-brasileiro-serieA.json"))
+                .assertThat().statusCode(200)
                 .log()
                 .all();
     }

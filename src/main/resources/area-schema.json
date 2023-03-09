@@ -1,0 +1,348 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "flag": {
+      "type": "string"
+    },
+    "parentAreaId": {
+      "type": "integer"
+    },
+    "parentArea": {
+      "type": "string"
+    },
+    "childAreas": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "countryCode": {
+              "type": "string"
+            },
+            "flag": {
+              "type": "string"
+            },
+            "parentAreaId": {
+              "type": "integer"
+            },
+            "parentArea": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "name",
+            "countryCode",
+            "flag",
+            "parentAreaId",
+            "parentArea"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "countryCode": {
+              "type": "string"
+            },
+            "flag": {
+              "type": "null"
+            },
+            "parentAreaId": {
+              "type": "integer"
+            },
+            "parentArea": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "name",
+            "countryCode",
+            "flag",
+            "parentAreaId",
+            "parentArea"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "countryCode": {
+              "type": "string"
+            },
+            "flag": {
+              "type": "string"
+            },
+            "parentAreaId": {
+              "type": "integer"
+            },
+            "parentArea": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "name",
+            "countryCode",
+            "flag",
+            "parentAreaId",
+            "parentArea"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "countryCode": {
+              "type": "string"
+            },
+            "flag": {
+              "type": "null"
+            },
+            "parentAreaId": {
+              "type": "integer"
+            },
+            "parentArea": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "name",
+            "countryCode",
+            "flag",
+            "parentAreaId",
+            "parentArea"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "countryCode": {
+              "type": "string"
+            },
+            "flag": {
+              "type": "null"
+            },
+            "parentAreaId": {
+              "type": "integer"
+            },
+            "parentArea": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "name",
+            "countryCode",
+            "flag",
+            "parentAreaId",
+            "parentArea"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "countryCode": {
+              "type": "string"
+            },
+            "flag": {
+              "type": "null"
+            },
+            "parentAreaId": {
+              "type": "integer"
+            },
+            "parentArea": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "name",
+            "countryCode",
+            "flag",
+            "parentAreaId",
+            "parentArea"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "countryCode": {
+              "type": "string"
+            },
+            "flag": {
+              "type": "null"
+            },
+            "parentAreaId": {
+              "type": "integer"
+            },
+            "parentArea": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "name",
+            "countryCode",
+            "flag",
+            "parentAreaId",
+            "parentArea"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "countryCode": {
+              "type": "string"
+            },
+            "flag": {
+              "type": "null"
+            },
+            "parentAreaId": {
+              "type": "integer"
+            },
+            "parentArea": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "name",
+            "countryCode",
+            "flag",
+            "parentAreaId",
+            "parentArea"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "countryCode": {
+              "type": "string"
+            },
+            "flag": {
+              "type": "null"
+            },
+            "parentAreaId": {
+              "type": "integer"
+            },
+            "parentArea": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "name",
+            "countryCode",
+            "flag",
+            "parentAreaId",
+            "parentArea"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "countryCode": {
+              "type": "string"
+            },
+            "flag": {
+              "type": "null"
+            },
+            "parentAreaId": {
+              "type": "integer"
+            },
+            "parentArea": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "name",
+            "countryCode",
+            "flag",
+            "parentAreaId",
+            "parentArea"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "code",
+    "flag",
+    "parentAreaId",
+    "parentArea",
+    "childAreas"
+  ]
+}

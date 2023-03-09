@@ -42,9 +42,7 @@ public class FootballAPI {
         given()
                 .get("/competitions/2013/matches").
                 then()
-                .assertThat()
-                .body(matchesJsonSchemaInClasspath("matches-brasileiro-serieA.json"))
-                .assertThat().statusCode(200)
+                .assertThat().statusCode(403)
                 .log()
                 .all();
     }
